@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgb(72, 135, 58);
     }
     
     h1{
@@ -15,7 +15,7 @@ body {
     
     
         border: 5px ridge black;
-        width: 25vw;
+        width: 22vw;
         margin-left: auto;
         margin-right: auto;
         background-color: grey;
@@ -26,17 +26,19 @@ body {
     
     
         border: 5px ridge black;
-        width: 25vw;
+        width: 20vw;
         margin-left: auto;
         margin-right: auto;
         background-color: grey;
     }
-    
-    #hidden {
-        display: none;
+    label{
+
+        width: 20vw;
+    }
+    input{
+
+        width: 15vw;
     }
 
-#result {
-    display: none;
-}
+
 

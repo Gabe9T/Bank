@@ -1,8 +1,3 @@
-// Test 1: Create a new bank account that takes user first, last name and phone number.
-// Test 2: Have a unique ID assigned to the account at creation.
-// Test 3: Make a deposit to the existing bank account.
-// Test 4: Make a withdrawal from the existing bank account.
-// Business Logic
 function BankAccount(firstName, lastName, balance, email) {
     this.firstName = firstName;
     this.lastName = lastName;
