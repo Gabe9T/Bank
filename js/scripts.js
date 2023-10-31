@@ -5,8 +5,6 @@ function BankAccount(firstName, lastName, balance, email) {
     this.email = email;
 }
 
-
-
 BankAccount.prototype.deposit = function (amount) {
     this.balance += amount;
 };
@@ -22,6 +20,9 @@ BankAccount.prototype.withdraw = function (amount) {
 // UI Logic
 
 let account = new BankAccount()
+
+
+
 
 function formHandler(event) {
     event.preventDefault();

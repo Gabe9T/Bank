@@ -1,45 +1,47 @@
 body {
     text-align: center;
     background-color: rgb(72, 135, 58);
-    }
-    
-    h1 {
-        border: 5px solid black;
-        width: 55vw;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: grey;
-    }
-    
-    #bankForm {
-    
-    
-        border: 5px ridge black;
-        width: 52vw;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: grey;
-    }
+}
+
+label {
+
+    width: 50vw;
+}
+
+input {
+
+    width: 45vw;
+}
+
+h1 {
+    border: 5px solid black;
+    width: 55vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+}
+
+#bankForm {
 
 
-    #bankForm2 {
-    
-    
-        border: 5px ridge black;
-        width: 40vw;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: grey;
-    }
-    label {
+    border: 5px ridge black;
+    width: 52vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+}
 
-        width: 50vw;
-    }
-    input {
 
-        width: 45vw;
-    }
+#bankForm2 {
+
+
+    border: 5px ridge black;
+    width: 52vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+}
 
 .hidden {
-display: none;
+    display: none;
 }
