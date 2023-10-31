@@ -1,22 +1,42 @@
 body {
-text-align: center;
-background-color: antiquewhite;
+    text-align: center;
+    background-color: antiquewhite;
+    }
+    
+    h1{
+        border: 5px solid black;
+        width: 25vw;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: grey;
+    }
+    
+    #bankForm{
+    
+    
+        border: 5px ridge black;
+        width: 25vw;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: grey;
+    }
+
+
+    #bankForm2{
+    
+    
+        border: 5px ridge black;
+        width: 25vw;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: grey;
+    }
+    
+    #hidden {
+        display: none;
+    }
+
+#result {
+    display: none;
 }
-
-h1{
-    border: 3px solid black;
-    width: 25vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#bankForm{
-
-
-    border: 5px ridge black;
-    width: 25vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 

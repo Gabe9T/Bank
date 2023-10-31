@@ -17,16 +17,25 @@
             <input type="text" name="firstName"><br>
             <label>Last Name</label><br>
             <input type="text" name="lastName"><br>
-            <label>Initial Balance</label><br>
+            <label>Email</label><br>
+            <input type="text" name="inputEmail"><br>
+            <label>Initial Deposit</label><br>
             <input type="number" name="inputBalance"><br>
-            <label>Deposit:</label><br>
+            <button class="button" type="submit">Create Account:</button>
+        </form>
+    </div>
+      
+    <div class="hidden" id="result">  
+        <form id="bankForm2">
+            <label>New Deposit:</label><br>
             <input type="number" name="inputDeposit"><br>
             <label>Withdraw:</label><br>
             <input type="number" name="inputwithdrawal"><br>
-            <button class="button" type="submit">New Balance:</button>
+            <button class="button" type="submit">Submit Transaction:</button>
         </form>
     </div>
-    <div id="result">
+
+    <div>
         <h2 class = "result" id="result"></h2>
     </div>
 </body>
