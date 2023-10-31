@@ -5,7 +5,7 @@ function BankAccount(firstName, lastName, balance, email) {
     this.email = email;
 }
 
-const account = new BankAccount(firstNameInput, lastNameInput, balanceInput);
+
 
 BankAccount.prototype.deposit = function(amount) {
     this.balance += amount;
@@ -22,7 +22,7 @@ BankAccount.prototype.withdraw = function(amount) {
 // UI Logic
 function formHandler(event) {
     event.preventDefault();
-    document.getElementById("Result").setAttribute("class", "hidden");
+    document.getElementById("Result").setAttribute("class","");
     const firstNameInput = document.querySelector("input[name='firstName']").value;
     const lastNameInput = document.querySelector("input[name='lastName']").value;
     const EmailInput = document.querySelector("input[name='inputEmail']").value;

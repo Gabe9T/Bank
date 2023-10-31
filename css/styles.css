@@ -3,42 +3,43 @@ body {
     background-color: rgb(72, 135, 58);
     }
     
-    h1{
+    h1 {
         border: 5px solid black;
-        width: 25vw;
+        width: 55vw;
         margin-left: auto;
         margin-right: auto;
         background-color: grey;
     }
     
-    #bankForm{
+    #bankForm {
     
     
         border: 5px ridge black;
-        width: 22vw;
+        width: 52vw;
         margin-left: auto;
         margin-right: auto;
         background-color: grey;
     }
 
 
-    #bankForm2{
+    #bankForm2 {
     
     
         border: 5px ridge black;
-        width: 20vw;
+        width: 40vw;
         margin-left: auto;
         margin-right: auto;
         background-color: grey;
     }
-    label{
+    label {
 
-        width: 20vw;
+        width: 50vw;
     }
-    input{
+    input {
 
-        width: 15vw;
+        width: 45vw;
     }
 
-
-
+.hidden {
+display: none;
+}
