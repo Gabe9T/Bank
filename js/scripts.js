@@ -7,11 +7,11 @@ function BankAccount(firstName, lastName, balance, email) {
 
 
 
-BankAccount.prototype.deposit = function(amount) {
+BankAccount.prototype.deposit = function (amount) {
     this.balance += amount;
 };
 
-BankAccount.prototype.withdraw = function(amount) {
+BankAccount.prototype.withdraw = function (amount) {
     if (amount <= this.balance) {
         this.balance -= amount;
     } else {
@@ -20,9 +20,12 @@ BankAccount.prototype.withdraw = function(amount) {
 };
 
 // UI Logic
+
+let account = new BankAccount()
+
 function formHandler(event) {
     event.preventDefault();
-    document.getElementById("Result").setAttribute("class","");
+    document.getElementById("result").setAttribute("class", "");
     const firstNameInput = document.querySelector("input[name='firstName']").value;
     const lastNameInput = document.querySelector("input[name='lastName']").value;
     const EmailInput = document.querySelector("input[name='inputEmail']").value;
@@ -30,12 +33,9 @@ function formHandler(event) {
     const depositInput = parseFloat(document.querySelector("input[name='inputDeposit']").value);
     const withdrawalInput = parseFloat(document.querySelector("input[name='inputwithdrawal']").value);
 
-// Perform deposit and withdrawal
-account.deposit(depositInput);
-account.withdraw(withdrawalInput);
-
-// Display the result
-document.getElementById("result").textContent = `New Balance: $${account.balance.toFixed(2)}`;
+    account = new BankAccount(firstNameInput, lastNameInput, balanceInput, EmailInput)
+    // Perform deposit and withdrawal
+    document.getElementById("balance").textContent = `New Balance: $${account.balance}`;
 }
 
 window.addEventListener("DOMContentLoaded", function () {
@@ -47,3 +47,6 @@ window.addEventListener("onclick", function () {
     const form = document.querySelector("#bankForm2");
     form.addEventListener("submit", formHandler);
 });
+
+
+
